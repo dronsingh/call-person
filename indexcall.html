@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Call App</title>
+    <link rel="stylesheet" href="call.css">
+</head>
+<body>
+
+<div class="call-container">
+    <h1>📞 Call App</h1>
+
+    <!-- Animated Avatar -->
+    <div class="avatar">
+        <img src="https://i.pravatar.cc/150?img=32" alt="Caller">
+        <span class="ring"></span>
+        <span class="ring"></span>
+    </div>
+
+    <input
+        type="text"
+        id="phoneNumber"
+        placeholder="Enter phone number"
+    />
+
+    <div class="buttons">
+        <button id="callBtn" class="call">Call</button>
+        <button id="endBtn" class="end" disabled>End</button>
+    </div>
+
+    <p id="status">Status: Idle</p>
+</div>
+
+<script src="scriptcall.js"></script>
+</body>
+</html>
